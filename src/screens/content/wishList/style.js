@@ -1,0 +1,137 @@
+import {StyleSheet} from 'react-native';
+export default StyleSheet.create({
+  sectionContainer: {
+    flex: 1,
+    backgroundColor: '#10203C',
+    width: '100%',
+  },
+  headerContainer: {
+    alignItems: 'center',
+  },
+  missions: {
+    alignItems: 'center',
+    justifyContent:'space-around',
+    flexDirection:'row',
+    width:'95%',
+    height:70,
+    borderTopLeftRadius: 20,
+    borderBottomLeftRadius: 20,
+    borderBottomRightRadius: 20,
+    borderTopRightRadius: 20,
+    marginTop:10
+  },
+  nearByText: {
+    color: '#ECD8E9',
+    marginTop: 25,
+    marginLeft:25,
+    fontFamily: 'Montserrat-Bold',
+  },
+  cardImgContainer: {
+    backgroundColor: 'green',
+    resizeMode: 'contain',
+    height: '90%',
+    width: 120,
+    borderTopLeftRadius: 20,
+    borderBottomLeftRadius: 20,
+    borderBottomRightRadius: 20,
+    borderTopRightRadius: 20,
+    marginLeft: 20,
+    marginTop: 10,
+  },
+  cardImg: {
+    resizeMode: 'stretch',
+    borderTopLeftRadius: 20,
+    borderBottomLeftRadius: 20,
+    borderBottomRightRadius: 20,
+    borderTopRightRadius: 20,
+    height: '100%',
+    width: 120,
+  },
+  cardInfos: {
+    height: '80%',
+    marginLeft: 10,
+    width: 200,
+    borderTopLeftRadius: 20,
+    borderBottomLeftRadius: 20,
+    borderBottomRightRadius: 20,
+    borderTopRightRadius: 20,
+    marginRight: 20,
+  },
+  mainTitleText: {
+    color: '#ECD8E9',
+    fontFamily: 'Montserrat-ExtraBold',
+    fontSize: 20,
+    marginTop: 10,
+  },
+  sexeText: {
+    color: '#2855AD',
+    fontFamily: 'Montserrat-SemiBold',
+    fontSize: 15,
+  },
+  sexeTextFemale: {
+    color: '#994556',
+    fontFamily: 'Montserrat-SemiBold',
+    fontSize: 15,
+  },
+  sexeContainer: {
+    backgroundColor: '#1B2F56',
+    width: '30%',
+    height: 30,
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderBottomLeftRadius: 20,
+    borderBottomRightRadius: 20,
+    borderTopRightRadius: 20,
+    borderTopLeftRadius: 20,
+    marginTop: 10,
+  },
+  sexeContainerFemale: {
+    backgroundColor: '#4B3051',
+    width: '35%',
+    height: 30,
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderBottomLeftRadius: 20,
+    borderBottomRightRadius: 20,
+    borderTopRightRadius: 20,
+    borderTopLeftRadius: 20,
+    marginTop: 10,
+  },
+  ageText: {
+    color: '#ECD8E9',
+    fontFamily: 'Montserrat-Regular',
+    fontSize: 13,
+    marginTop: 10,
+  },
+  modalStyle: {
+    borderTopLeftRadius: 20,
+    borderTopRightRadius: 20,
+  },
+  modalContentStyle: {
+    padding: 20,
+    flexDirection: 'column',
+    alignItems: 'center',
+  },
+  modalizeContainer: {
+    padding: 16,
+    height: "100%",
+  },
+  locationContainer:{
+    backgroundColor: '#0d1c38',
+    height: 40,
+    width:'80%',
+    borderTopRightRadius: 5,
+    borderTopLeftRadius: 5,
+    borderBottomLeftRadius: 5,
+    borderBottomRightRadius: 5,
+    justifyContent:'center',
+    marginBottom:10,
+    alignSelf:'center',
+    alignItems:'center'
+  },
+  locationText:{
+    color:'white',
+    fontFamily:'Montserrat-SemiBold'
+
+  }
+});

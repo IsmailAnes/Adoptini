@@ -1,0 +1,180 @@
+import {StyleSheet,Platform} from 'react-native';
+export default StyleSheet.create({
+  sectionContainer: {
+    flex: 1,
+    backgroundColor: '#10203C',
+    width: '100%',
+    padding:10
+  },
+  headerContainer: {
+    alignItems: 'center',
+  },
+  horizontalCard:{
+    width: 340,
+    height: 220,
+    borderTopLeftRadius: 20,
+    borderBottomLeftRadius: 20,
+    borderBottomRightRadius: 20,
+    borderTopRightRadius: 20,
+    shadowOpacity: 0.3,
+    marginTop:10,
+    marginRight:10,
+    alignItems:'center'
+},
+  missions: {
+    alignItems: 'center',
+    justifyContent:'center',
+    flexDirection:'row',
+    width:'100%',
+    height:70,
+    borderTopLeftRadius: 20,
+    borderBottomLeftRadius: 20,
+    borderBottomRightRadius: 20,
+    borderTopRightRadius: 20,
+    marginTop:5
+  },
+  nearByText: {
+    color: '#ECD8E9',
+    marginTop: 25,
+    marginLeft:25,
+    marginBottom:20,
+    fontFamily: 'Montserrat-Bold',
+  },
+  cardImgContainer: {
+    resizeMode: 'contain',
+    height: '95%',
+    width: '30%',
+    borderTopLeftRadius: 20,
+    borderBottomLeftRadius: 20,
+    borderBottomRightRadius: 20,
+    borderTopRightRadius: 20,    
+    marginTop: 5,
+  },
+  cardImg: {
+    resizeMode: 'stretch',
+    borderTopLeftRadius: 20,
+    borderBottomLeftRadius: 20,
+    borderBottomRightRadius: 20,
+    borderTopRightRadius: 20,
+    height: 145,
+    width: 130,
+  },
+  cardImgCircular: {
+    resizeMode: 'stretch',
+    width: 88,
+    height: 88,
+    borderRadius: 88/2,
+    marginTop:10
+  },
+  cardImgSexe: {
+    width: 35,
+    height: 35,
+   // marginBottom:20
+  },
+  cardInfos: {
+    height: '80%',
+    marginLeft: 10,
+    width: '65%',
+    borderTopLeftRadius: 20,
+    borderBottomLeftRadius: 20,
+    borderBottomRightRadius: 20,
+    borderTopRightRadius: 20,
+   // marginRight: 10,
+  },
+  mainTitleText: {
+    color: '#ECD8E9',
+    fontFamily: 'Montserrat-ExtraBold',
+    fontSize: 20,
+    marginTop: 10,
+  },
+  sexeText: {
+    color: '#2855AD',
+    fontFamily: 'Montserrat-SemiBold',
+    fontSize: 15,
+  },
+  sexeTextFemale: {
+    color: '#994556',
+    fontFamily: 'Montserrat-SemiBold',
+    fontSize: 15,
+  },
+  sexeContainer: {
+    backgroundColor: '#1B2F56',
+    width: '30%',
+    height: 30,
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderBottomLeftRadius: 20,
+    borderBottomRightRadius: 20,
+    borderTopRightRadius: 20,
+    borderTopLeftRadius: 20,
+    marginTop: 10,
+  },
+  sexeContainerFemale: {
+    backgroundColor: '#4B3051',
+    width: '35%',
+    height: 30,
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderBottomLeftRadius: 20,
+    borderBottomRightRadius: 20,
+    borderTopRightRadius: 20,
+    borderTopLeftRadius: 20,
+    marginTop: 10,
+  },
+  ageText: {
+    color: '#ECD8E9',
+    fontFamily: 'Montserrat-Regular',
+    fontSize: 13,
+    marginTop: 10,
+    marginLeft:20
+  },
+  modalStyle: {
+    borderTopLeftRadius: 20,
+    borderTopRightRadius: 20,
+    borderBottomLeftRadius:20,
+    borderBottomRightRadius:20,
+    width:'95%',
+    marginBottom:Platform.OS === "ios" ? 20: "1%",
+    alignSelf:'center',
+  },
+  modalContentStyle: {
+    padding: 20,
+    flexDirection: 'column',
+    alignItems: 'center',
+  },
+  modalizeContainer: {
+    padding: 16,
+    height: "100%",
+  },
+  locationContainer:{
+    backgroundColor: '#0d1c38',
+    height: 40,
+    width:'80%',
+    borderTopRightRadius: 5,
+    borderTopLeftRadius: 5,
+    borderBottomLeftRadius: 5,
+    borderBottomRightRadius: 5,
+    justifyContent:'center',
+    marginBottom:10,
+    alignSelf:'center',
+    alignItems:'center'
+  },
+  locationContainerDelete:{
+    backgroundColor: '#4B3051',
+    height: 40,
+    width:'80%',
+    borderTopRightRadius: 5,
+    borderTopLeftRadius: 5,
+    borderBottomLeftRadius: 5,
+    borderBottomRightRadius: 5,
+    justifyContent:'center',
+    marginBottom:10,
+    alignSelf:'center',
+    alignItems:'center'
+  },
+  locationText:{
+    color:'white',
+    fontFamily:'Montserrat-SemiBold'
+
+  },
+});
